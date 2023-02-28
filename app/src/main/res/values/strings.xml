@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Мой дом</string>
+    <string name="cameras_title">Камеры</string>
+    <string name="doors_title">Двери</string>
+    <string name="card_name">Гостиная</string>
+    <string name="name">Домофон</string>
+    <string name="status">В сети</string>
+    <string name="item_name_text_1">Подъезд 1</string>
+    <string name="item_name_text_2">Выход на пожарную лесницу</string>
+    <string name="item_name_text_3">Подъезд 2</string>
+    <string name="test2">Выход на пожарную лесницу</string>
+    <string name="test3">Подъезд 2</string>
+    <string name="rooms_title">Гостиная</string>
+    <string name="rec">REC</string>
+    <string name="intercom_title">Домофон общедомовой</string>
+    <string name="live_broadcast_text">Прямая трансляция</string>
+    <string name="views_count_text">2</string>
+    <string name="open_door_text">Открыть дверь</string>
+    <string name="setting_text">Настройки</string>
+    <string name="camera_name_text">Камера 1</string>
+</resources>

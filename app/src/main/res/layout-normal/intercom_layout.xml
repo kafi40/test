@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background">
+
+    <RelativeLayout
+        android:id="@+id/blocks_nav_"
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:background="@color/main_background"
+        android:gravity="center"
+        android:layout_marginTop="-24dp">
+
+        <TextView
+            style="@style/title_text_21"
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/intercom_title"
+            android:layout_marginTop="60dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/frame_371"
+        android:layout_width="match_parent"
+        android:layout_height="216dp"
+        android:layout_marginTop="103dp">
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerCrop"
+            tools:srcCompat="@tools:sample/avatars" />
+        <RelativeLayout
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="31dp"
+            android:layout_marginTop="8.96dp"
+            android:gravity="bottom"
+            android:background="@drawable/icons_doors">
+            <View
+                android:layout_width="24dp"
+                android:layout_height="18dp"
+                android:background="@drawable/eye_views"/>
+
+        </RelativeLayout>
+        <TextView
+            style="@style/element_text_17_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="11.96dp"
+            android:text="@string/views_count_text"/>
+        <View
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginBottom="13dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/ellipse_12"/>
+
+        <TextView
+            style="@style/element_text_12_white"
+            android:layout_width="94dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="41dp"
+            android:layout_marginBottom="9dp"
+            android:gravity="center_vertical"
+            android:lineSpacingExtra="-2sp"
+            android:text="@string/live_broadcast_text" />
+
+        <RelativeLayout
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:gravity="center">
+                <RelativeLayout
+                    android:id="@+id/maximize"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:gravity="center">
+
+                    <View
+                        android:layout_width="14dp"
+                        android:layout_height="14dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/maximize" />
+                </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/blocks_cam_"
+        android:layout_width="343dp"
+        android:layout_height="105dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="98dp"
+        android:background="@drawable/main_background_radius">
+        <RelativeLayout
+            android:id="@+id/icons_cam_k"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:layout_centerInParent="true">
+            <View
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/key_icon"/>
+        </RelativeLayout>
+        <TextView
+            style="@style/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/open_door_text"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="12dp"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/blocks_tool"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@drawable/blocks_tool"
+        android:layout_alignParentBottom="true"
+        android:elevation="90dp">
+        <RelativeLayout
+            android:id="@+id/icons_nav_b"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginStart="8dp">
+
+            <RelativeLayout
+                android:id="@+id/arrow_back"
+                android:layout_width="21dp"
+                android:layout_height="28dp"
+                android:layout_centerInParent="true">
+
+                <View
+                    android:layout_width="17dp"
+                    android:layout_height="17dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/arrow_back" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <TextView
+            style="@style/element_text_17_grey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="173dp"
+            android:text="@string/setting_text" />
+
+        <View
+            android:layout_width="23dp"
+            android:layout_height="6dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/line_68"
+            android:layout_marginTop="14dp"/>
+        <RelativeLayout
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/rectagle_2616">
+            <RelativeLayout
+                android:id="@+id/icons_invis"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_centerInParent="true">
+                <RelativeLayout
+                    android:id="@+id/group_214"
+                    android:layout_width="18dp"
+                    android:layout_height="16dp"
+                    android:layout_centerInParent="true">
+
+                    <View
+                        android:layout_width="18dp"
+                        android:layout_height="16dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/eye_invisible" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

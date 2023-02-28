@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+            android:id="@+id/blocks_nav_"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:background="@color/main_background">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp">
+                <TextView
+                    style="@style/title_text_21"
+                    android:id="@+id/main_title"
+                    android:layout_width="131dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/app_name"
+                    android:textAlignment="center"
+                    android:textColor="@color/main_text" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/frame_24"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/doors_title"
+                        style="@style/title_text_17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="@string/cameras_title" />
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="@drawable/func_tab_si" >
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentBottom="true"
+                            android:background="@drawable/unselected_line"
+                            />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/frame_23"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/cameras_title"
+                        style="@style/title_text_17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:layout_centerInParent="true"
+                        android:text="@string/doors_title" />
+                    <RelativeLayout
+                        android:id="@+id/func_tab_si"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="@drawable/func_tab_si" >
+                        <View
+                            android:id="@+id/rectangle_3"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentBottom="true"
+                            android:background="@drawable/selected_line"
+                            />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/fabric"
+        android:layout_width="2250dp"
+        android:layout_height="1437dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="65dp"
+        android:layout_marginBottom="5dp">
+
+        <LinearLayout
+            android:id="@+id/door_tab"
+            android:layout_width="match_parent"
+            android:layout_height="647dp"
+            android:layout_marginTop="45dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="333dp"
+                android:layout_height="72dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/main_background_radius"
+                android:elevation="3dp">
+
+                <TextView
+                    android:id="@+id/item_1"
+                    style="@style/element_text_17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:gravity="top"
+                    android:text="@string/item_name_text_1" />
+                <RelativeLayout
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="16dp"
+                    android:background="@drawable/lock_close">
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="333dp"
+                android:layout_height="72dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/main_background_radius"
+                android:elevation="3dp">
+
+                <TextView
+                    android:id="@+id/item_2"
+                    style="@style/element_text_17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:gravity="top"
+                    android:text="@string/item_name_text_2" />
+                <RelativeLayout
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="16dp"
+                    android:background="@drawable/lock_open">
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="333dp"
+                android:layout_height="72dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/main_background_radius"
+                android:elevation="3dp">
+
+                <TextView
+                    android:id="@+id/item_3"
+                    style="@style/element_text_17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginBottom="19dp"
+                    android:gravity="top"
+                    android:text="@string/item_name_text_3" />
+
+                <RelativeLayout
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="16dp"
+                    android:background="@drawable/lock_close">
+                </RelativeLayout>
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:id="@+id/blocks_pad_"
+                android:layout_width="333dp"
+                android:layout_height="279dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/main_background_radius"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/group_190"
+                    android:layout_width="333dp"
+                    android:layout_height="207dp">
+
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        tools:srcCompat="@tools:sample/avatars" />
+                    <RelativeLayout
+                        android:id="@+id/icons_pad_p"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_centerInParent="true">
+                        <View
+                            android:id="@+id/vector"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:background="@drawable/vector"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentBottom="true">
+
+                        </View>
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/group_192"
+                    android:layout_width="333dp"
+                    android:layout_height="72dp">
+
+                    <RelativeLayout
+                        android:id="@+id/group_191"
+                        android:layout_width="87dp"
+                        android:layout_height="45dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="16dp">
+
+                        <TextView
+                            android:id="@+id/name"
+                            style="@style/element_text_17"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/name" />
+
+                        <TextView
+                            android:id="@+id/status"
+                            style="@style/status"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:text="@string/status" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/icons_doors"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="16dp"
+                        android:background="@drawable/lock_close">
+
+                    </RelativeLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

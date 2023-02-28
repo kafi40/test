@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:viewportHeight="24" android:viewportWidth="24" android:height="24dp" android:width="24dp" android:name="vector" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:name="group" android:rotation="1" android:scaleY="0.5" android:scaleX="0.5" android:translateY="8.6" android:translateX="0.3">
+        <path android:name="path_1" android:strokeMiterLimit="10" android:strokeLineCap="round" android:strokeWidth="1.411764705882353" android:strokeColor="#03a9f4" android:fillColor="#000" android:pathData="M 16.004 2.749 L 1.029 17.723 L 1.029 20.219 L 2.9 22.091 L 6.647 22.093 L 7.892 20.843 L 7.885 18.341 L 10.381 18.341 L 10.381 15.872 L 12.877 15.872 L 12.877 13.375 L 17.914 13.395 L 22.241 9.068"/>
+        <path android:name="path" android:strokeWidth="1" android:fillColor="#03a9f4" android:pathData="M 16.004 2.749 L 1.029 17.723 L 1.029 20.219 L 2.9 22.091 L 6.647 22.093 L 7.892 20.843 L 7.885 18.341 L 10.381 18.341 L 10.381 15.872 L 12.877 15.872 L 12.877 13.375 L 17.914 13.395 L 22.241 9.068" android:fillType="evenOdd"/>
+    </group>
+
+
+    <group android:name="group_1" android:scaleY="0.6" android:scaleX="0.6" android:translateY="0" android:translateX="7">
+        <path android:name="path_2" android:strokeMiterLimit="10" android:strokeWidth="1.263157894736842" android:strokeColor="#03a9f4" android:fillColor="#03a9f4" android:pathData="M 5.62 3.898 C 2.828 6.69 1.986 10.688 3.083 14.213 L 1.131 16.166 L 7.83 22.866 L 9.765 20.929 C 13.304 22.052 17.329 21.219 20.135 18.413 C 24.141 14.405 24.141 7.906 20.135 3.899 C 16.127 -0.109 9.628 -0.11 5.62 3.898 Z" android:fillType="evenOdd"/>
+    </group>
+    <group android:name="group_2" android:scaleY="0.15" android:scaleX="0.15" android:translateY="3" android:translateX="15">
+        <path android:strokeWidth="1" android:fillColor="#ffffff" android:pathData="M 13.493 19.478 C 18.466 19.478 22.493 15.451 22.493 10.478 C 22.493 5.51 18.466 1.478 13.493 1.478 C 8.525 1.478 4.493 5.51 4.493 10.478 C 4.493 15.451 8.525 19.478 13.493 19.478 Z"/>
+    </group>
+
+</vector>
